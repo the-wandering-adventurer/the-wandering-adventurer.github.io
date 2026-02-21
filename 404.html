@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,9 @@
 <title>404 Page not found | The Wandering Adventurer</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
-<meta name="author" content="">
+<meta name="author" content="The Wandering Adventurer">
 <link rel="canonical" href="https://the-wandering-adventurer.github.io/404.html">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.11d6e332bc99828c84c1334da5922d6bbdae0e619f56e94213848b519fa86e8c.css" integrity="sha256-EdbjMryZgoyEwTNNpZIta72uDmGfVulCE4SLUZ&#43;obow=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ad767d9f40ed6604c12498c07980f60c16729613cb30ac3f606d8294a8ca344f.css" integrity="sha256-rXZ9n0DtZgTBJJjAeYD2DBZylhPLMKw/YG2ClKjKNE8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://the-wandering-adventurer.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://the-wandering-adventurer.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://the-wandering-adventurer.github.io/favicon-32x32.png">
@@ -39,23 +39,38 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
+            .toc {
+                background: var(--entry);
             }
+        }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
             }
         }
 
     </style>
-</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Alegreya:ital@0;1&family=UnifrakturMaguntia&family=Alegreya+SC:ital@0;1&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
 <script>
@@ -76,20 +91,8 @@ window.onload = function() {
 <meta name="twitter:description" content="">
 
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="https://the-wandering-adventurer.github.io/" accesskey="h" title="The Wandering Adventurer (Alt + H)">The Wandering Adventurer</a>
@@ -160,9 +163,14 @@ window.onload = function() {
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -203,11 +211,12 @@ window.onload = function() {
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

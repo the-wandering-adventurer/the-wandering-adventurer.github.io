@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,9 @@
 <title>Posts | The Wandering Adventurer</title>
 <meta name="keywords" content="">
 <meta name="description" content="Posts - The Wandering Adventurer">
-<meta name="author" content="">
+<meta name="author" content="The Wandering Adventurer">
 <link rel="canonical" href="https://the-wandering-adventurer.github.io/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.11d6e332bc99828c84c1334da5922d6bbdae0e619f56e94213848b519fa86e8c.css" integrity="sha256-EdbjMryZgoyEwTNNpZIta72uDmGfVulCE4SLUZ&#43;obow=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ad767d9f40ed6604c12498c07980f60c16729613cb30ac3f606d8294a8ca344f.css" integrity="sha256-rXZ9n0DtZgTBJJjAeYD2DBZylhPLMKw/YG2ClKjKNE8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://the-wandering-adventurer.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://the-wandering-adventurer.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://the-wandering-adventurer.github.io/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://the-wandering-adventurer.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://the-wandering-adventurer.github.io/posts/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://the-wandering-adventurer.github.io/posts/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://the-wandering-adventurer.github.io/posts/">
 <noscript>
     <style>
@@ -40,23 +40,38 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
+            .toc {
+                background: var(--entry);
             }
+        }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
             }
         }
 
     </style>
-</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Alegreya:ital@0;1&family=UnifrakturMaguntia&family=Alegreya+SC:ital@0;1&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
 <script>
@@ -92,20 +107,8 @@ window.onload = function() {
 }
 </script>
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="https://the-wandering-adventurer.github.io/" accesskey="h" title="The Wandering Adventurer (Alt + H)">The Wandering Adventurer</a>
@@ -175,7 +178,7 @@ window.onload = function() {
 “Corrupted? Look at him! Does he look corrupted to you?”
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-09-07 00:00:00 +0000 UTC'>September 7, 2024</span>&nbsp;·&nbsp;8 min</footer>
+  <footer class="entry-footer"><span title='2024-09-07 00:00:00 +0000 UTC'>September 7, 2024</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>The Wandering Adventurer</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 8" href="https://the-wandering-adventurer.github.io/posts/chapter-8/"></a>
 </article>
 
@@ -190,7 +193,7 @@ window.onload = function() {
 A quarterstaff tapped him on the shoulder. “You better not pick that up.”
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-07-06 00:00:00 +0000 UTC'>July 6, 2024</span>&nbsp;·&nbsp;8 min</footer>
+  <footer class="entry-footer"><span title='2024-07-06 00:00:00 +0000 UTC'>July 6, 2024</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>The Wandering Adventurer</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 7" href="https://the-wandering-adventurer.github.io/posts/chapter-7/"></a>
 </article>
 
@@ -207,7 +210,7 @@ A quarterstaff tapped him on the shoulder. “You better not pick that up.”
 “So, are you going to talk to it, or what?”
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-06-16 00:00:00 +0000 UTC'>June 16, 2024</span>&nbsp;·&nbsp;7 min</footer>
+  <footer class="entry-footer"><span title='2024-06-16 00:00:00 +0000 UTC'>June 16, 2024</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>The Wandering Adventurer</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 6" href="https://the-wandering-adventurer.github.io/posts/chapter-6/"></a>
 </article>
 
@@ -222,7 +225,7 @@ An elf.
 “Am I still dreaming?” asked Brynn, sleepily. Elves were long gone. How could she be here?
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-05-20 00:00:00 +0000 UTC'>May 20, 2024</span>&nbsp;·&nbsp;13 min</footer>
+  <footer class="entry-footer"><span title='2024-05-20 00:00:00 +0000 UTC'>May 20, 2024</span>&nbsp;·&nbsp;<span>13 min</span>&nbsp;·&nbsp;<span>The Wandering Adventurer</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 5" href="https://the-wandering-adventurer.github.io/posts/chapter-5/"></a>
 </article>
 
@@ -236,7 +239,7 @@ An elf.
 It looked in even worse shape. A dark mold was growing up the posts, nearly covering the runes, and wood everywhere was crumbling apart.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-04-20 00:00:00 +0000 UTC'>April 20, 2024</span>&nbsp;·&nbsp;11 min</footer>
+  <footer class="entry-footer"><span title='2024-04-20 00:00:00 +0000 UTC'>April 20, 2024</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>The Wandering Adventurer</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 4" href="https://the-wandering-adventurer.github.io/posts/chapter-4/"></a>
 </article>
 
@@ -249,7 +252,7 @@ It looked in even worse shape. A dark mold was growing up the posts, nearly cove
     <p>Kodroth and the raiders had already started to attack by the time Brynn made it down the palisade with the others. It was early, just before noon. Kodroth hadn’t kept his word, evidently.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-03-31 00:00:00 +0000 UTC'>March 31, 2024</span>&nbsp;·&nbsp;15 min</footer>
+  <footer class="entry-footer"><span title='2024-03-31 00:00:00 +0000 UTC'>March 31, 2024</span>&nbsp;·&nbsp;<span>15 min</span>&nbsp;·&nbsp;<span>The Wandering Adventurer</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 3" href="https://the-wandering-adventurer.github.io/posts/chapter-3/"></a>
 </article>
 
@@ -265,7 +268,7 @@ As soon as Brynn stepped inside, Rhoddri paused and focused on him.
 “So, Druid, do you know how to fix the Fence?”
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-03-16 00:00:00 +0000 UTC'>March 16, 2024</span>&nbsp;·&nbsp;11 min</footer>
+  <footer class="entry-footer"><span title='2024-03-16 00:00:00 +0000 UTC'>March 16, 2024</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>The Wandering Adventurer</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 2" href="https://the-wandering-adventurer.github.io/posts/chapter-2/"></a>
 </article>
 
@@ -278,7 +281,7 @@ As soon as Brynn stepped inside, Rhoddri paused and focused on him.
     <p>Brynn stood in front of the Fence. It was a simple wooden structure that surrounded the village. Faded runes were carved on each of the posts, similar to the ones he saw on the statue in the village square. The whole thing was slowly rotting away.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-02-24 17:53:00 -0500 EST'>February 24, 2024</span>&nbsp;·&nbsp;9 min</footer>
+  <footer class="entry-footer"><span title='2024-02-24 17:53:00 -0500 EST'>February 24, 2024</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>The Wandering Adventurer</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 1" href="https://the-wandering-adventurer.github.io/posts/chapter-1/"></a>
 </article>
 
@@ -292,7 +295,7 @@ As soon as Brynn stepped inside, Rhoddri paused and focused on him.
 A summer storm to the south had caused huge swells on their voyage, leaving Brynn sea sick. The fishermen had expected him to cast healing magic on himself, but Brynn had yet to learn those rituals, and besides the rocking boat would have made them difficult to cast in any case. Instead, he had laid down, useless, in the hold, while they went about their business.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-01-26 00:00:00 +0000 UTC'>January 26, 2024</span>&nbsp;·&nbsp;4 min</footer>
+  <footer class="entry-footer"><span title='2024-01-26 00:00:00 +0000 UTC'>January 26, 2024</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>The Wandering Adventurer</span></footer>
   <a class="entry-link" aria-label="post link to Prologue" href="https://the-wandering-adventurer.github.io/posts/prologue/"></a>
 </article>
 <footer class="page-footer">
@@ -320,9 +323,14 @@ A summer storm to the south had caused huge swells on their voyage, leaving Bryn
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -363,11 +371,12 @@ A summer storm to the south had caused huge swells on their voyage, leaving Bryn
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })
