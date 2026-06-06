@@ -4,7 +4,7 @@
     <title>The Wandering Adventurer</title>
     <link>https://the-wandering-adventurer.github.io/</link>
     <description>Recent content on The Wandering Adventurer</description>
-    <generator>Hugo -- 0.161.1</generator>
+    <generator>Hugo -- 0.162.1</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://the-wandering-adventurer.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -20,10 +20,10 @@ was good thing that Seleeku had left him. Now there were no more prophecies for
 him to worry about. He didn&amp;rsquo;t need her. Good riddance.&lt;/p&gt;
 &lt;p&gt;He stood in front of the Main Building of the College, feeling angry and
 depressed. The Library was on the third and top floor, which should be where the
-&lt;em&gt;Codex of Essus&lt;/em&gt; was now held. Seleeku had told him that she returned it to
-Themon&amp;rsquo;s office, but the College must have been aware of Brynn&amp;rsquo;s escape and
-Themon&amp;rsquo;s disappearance by now. A book as valuable as the original &lt;em&gt;Codex&lt;/em&gt; would
-have been promptly brought back to the Library for safekeeping.&lt;/p&gt;</description>
+&lt;em&gt;Codex of Essus&lt;/em&gt; was now held. Seleeku had returned it to Themon&amp;rsquo;s office, but
+the College must have been aware of Brynn&amp;rsquo;s escape and Themon&amp;rsquo;s disappearance by
+now. A book as valuable as the original &lt;em&gt;Codex&lt;/em&gt; would have been promptly brought
+back to the Library for safekeeping.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chapter 19</title>
@@ -213,18 +213,24 @@ happening.&lt;/p&gt;</description>
 a short description of who they are.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Arasen - a servant of Kodroth. Later becomes a bonewalker in the Far Forest&lt;/li&gt;
-&lt;li&gt;Brynn - the main protagonist of the story. Trained as a Druid of Galdir&lt;/li&gt;
+&lt;li&gt;Bastien - a guard at the Stormstead Inn in Galdur&lt;/li&gt;
+&lt;li&gt;Brynn - the main protagonist of the story. Trained as a Druid of Galdur&lt;/li&gt;
 &lt;li&gt;Dorosi - an elven Scout. Afraid of druids&lt;/li&gt;
 &lt;li&gt;Edda - the kindly Shaman of Brightmyst. The village&amp;rsquo;s healer&lt;/li&gt;
-&lt;li&gt;Fanir - Master Druid in Galdir who teaches students how to tame demons&lt;/li&gt;
-&lt;li&gt;Kodroth - a raider from the Clan Isles&lt;/li&gt;
-&lt;li&gt;Kynan - a High Druid in Galdir&lt;/li&gt;
+&lt;li&gt;Fanir - Master Druid in Galdur who teaches students how to tame demons&lt;/li&gt;
+&lt;li&gt;Kenrick - Innkeeper of the Stormstead Inn in Galdur&lt;/li&gt;
+&lt;li&gt;Jebran III - the King of Galdur&lt;/li&gt;
+&lt;li&gt;Jelma - a High Druid librarian&lt;/li&gt;
+&lt;li&gt;Kodroth - raider from the Clan Isles&lt;/li&gt;
+&lt;li&gt;Kynan - a High Druid in Galdur&lt;/li&gt;
+&lt;li&gt;Makari - past Lord of Brynn&amp;rsquo;s homeland&lt;/li&gt;
 &lt;li&gt;Mattissa - an elven Scout&lt;/li&gt;
+&lt;li&gt;Morien - daughter of Kenrick&lt;/li&gt;
 &lt;li&gt;Nessana - an elven Scout Leader&lt;/li&gt;
 &lt;li&gt;Rhoddri - the stern Mayor of Brightmyst and former Knight of the Realm&lt;/li&gt;
 &lt;li&gt;Seleeku - an elven Scout in the Far Forest who first finds Brynn&lt;/li&gt;
-&lt;li&gt;Sibila - a High Druid in Galdir, the youngest ever to have risen to the rank&lt;/li&gt;
-&lt;li&gt;Themon - a High Druid in Galdir. He has a vision of the coming Darkness&lt;/li&gt;
+&lt;li&gt;Sibila - a High Druid in Galdur, the youngest ever to have risen to the rank&lt;/li&gt;
+&lt;li&gt;Themon - a High Druid in Galdur. He has a vision of the coming Darkness&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -380,24 +386,24 @@ this only if you want some hints to the story.&lt;/strong&gt;&lt;/p&gt;
 story.&lt;/p&gt;
 &lt;h3 id=&#34;attributes&#34;&gt;Attributes&lt;/h3&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Edge&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Heart&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Iron&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Shadow&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Wits&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;3&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;Edge&lt;/th&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;Heart&lt;/th&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;Iron&lt;/th&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;Shadow&lt;/th&gt;
+					&lt;th style=&#34;text-align: center&#34;&gt;Wits&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;
+					&lt;td style=&#34;text-align: center&#34;&gt;3&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;starting-assets&#34;&gt;Starting Assets&lt;/h3&gt;
 &lt;h4 id=&#34;sighted&#34;&gt;Sighted&lt;/h4&gt;
