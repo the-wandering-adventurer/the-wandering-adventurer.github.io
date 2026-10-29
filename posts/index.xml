@@ -4,10 +4,26 @@
     <title>Posts on The Wandering Adventurer</title>
     <link>https://the-wandering-adventurer.github.io/posts/</link>
     <description>Recent content in Posts on The Wandering Adventurer</description>
-    <generator>Hugo -- 0.166.0</generator>
+    <generator>Hugo -- 0.169.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 16:43:45 -0400</lastBuildDate>
     <atom:link href="https://the-wandering-adventurer.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 22</title>
+      <link>https://the-wandering-adventurer.github.io/posts/chapter-22/</link>
+      <pubDate>Sat, 04 Jul 2026 16:43:45 -0400</pubDate>
+      <guid>https://the-wandering-adventurer.github.io/posts/chapter-22/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;dropcaps dropcapsKo&#34;&gt;K&lt;/span&gt;&lt;span class=&#34;smallcaps&#34;&gt;odroth smiled widely,&lt;/span&gt;
+a rictus that caused
+putrid pus to leak from his cheeks and dribble into his beard. It twitched about
+violently in disgust.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;This isn&amp;rsquo;t some game,&amp;rdquo; Brynn shouted, swatting away Kodroth&amp;rsquo;s hand from his
+forehead. &amp;ldquo;How many people have died because of you?!&amp;rdquo;&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;&amp;ldquo;Who&amp;rsquo;s to say I&amp;rsquo;m responsible for their deaths? Who&amp;rsquo;s to say I&amp;rsquo;m responsible for
+anything?&amp;rdquo; Kodroth replied, his smile never fading. &amp;ldquo;What about you? Did you
+cause the earthquake? Maybe we are just following our fates.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Chapter 21</title>
       <link>https://the-wandering-adventurer.github.io/posts/chapter-21/</link>
@@ -54,7 +70,16 @@ stay empty for the time being.&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;div id=&#34;&#34; class=&#34;excursion&#34;&gt;
 &lt;div class=&#34;inner&#34;&gt;
-&lt;p&gt;Brynn&amp;rsquo;s stats so far:&lt;/p&gt;</description>
+&lt;p&gt;Brynn&amp;rsquo;s stats so far:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Health (3)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Spirit (0)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Supply (2)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Momentum (1)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Shaken&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     <item>
       <title>Chapter 18</title>
@@ -79,7 +104,12 @@ heads, swaying gently in the breeze.&lt;/p&gt;
 &lt;li&gt;&lt;em&gt;Shaken&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I&amp;rsquo;m going to mark progress on Brynn&amp;rsquo;s quest since they made it out of the
-dungeon:&lt;/p&gt;</description>
+dungeon:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stop Kodroth:    &lt;img src=&#34;https://the-wandering-adventurer.github.io/progress-box-3.svg&#34; class=&#34;progress-bar&#34;/&gt;   &lt;img src=&#34;https://the-wandering-adventurer.github.io/progress-box-0.svg&#34; class=&#34;progress-bar&#34;/&gt;  &lt;img src=&#34;https://the-wandering-adventurer.github.io/progress-box-0.svg&#34; class=&#34;progress-bar&#34;/&gt;  &lt;img src=&#34;https://the-wandering-adventurer.github.io/progress-box-0.svg&#34; class=&#34;progress-bar&#34;/&gt;  &lt;img src=&#34;https://the-wandering-adventurer.github.io/progress-box-0.svg&#34; class=&#34;progress-bar&#34;/&gt;  &lt;img src=&#34;https://the-wandering-adventurer.github.io/progress-box-0.svg&#34; class=&#34;progress-bar&#34;/&gt;  &lt;img src=&#34;https://the-wandering-adventurer.github.io/progress-box-0.svg&#34; class=&#34;progress-bar&#34;/&gt;  &lt;img src=&#34;https://the-wandering-adventurer.github.io/progress-box-0.svg&#34; class=&#34;progress-bar&#34;/&gt;  &lt;img src=&#34;https://the-wandering-adventurer.github.io/progress-box-0.svg&#34; class=&#34;progress-bar&#34;/&gt;  &lt;img src=&#34;https://the-wandering-adventurer.github.io/progress-box-0.svg&#34; class=&#34;progress-bar&#34;/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     <item>
       <title>Chapter 17</title>
@@ -139,7 +169,14 @@ How many daggers were there?&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;&#34; class=&#34;excursion&#34;&gt;
 &lt;div class=&#34;inner&#34;&gt;
-&lt;p&gt;What does Themon want to do with the original &lt;em&gt;Codex of Essus&lt;/em&gt;?&lt;/p&gt;</description>
+&lt;p&gt;What does Themon want to do with the original &lt;em&gt;Codex of Essus&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;Oracle action/theme:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Roll 15: Raid&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Roll 32: Superstition&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     <item>
       <title>Chapter 14</title>
